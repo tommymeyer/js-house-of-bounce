@@ -1231,6 +1231,12 @@ ul.social {
 .about-us #header {
   padding: 32px 0; }
 
+.bounce-house #header {
+  padding: 32px 0; }
+
+.contact-us #header {
+  padding: 32px 0; }
+
 /* Nav */
 #nav {
   margin: 2.5em 0 0 0; }
@@ -1360,6 +1366,13 @@ ul.social {
     background-size: 100% 100%;
     z-index: 0;
     opacity: 0.1; }
+  #main h1 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    margin: 0 auto;
+    text-align: center;
+    width: 650px; }
   #main .major h2 {
     background: #f7f7f7 url("images/bg02.png"); }
 
