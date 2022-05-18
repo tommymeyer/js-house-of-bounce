@@ -14,6 +14,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/accessible-slick-theme.min.css">
     <link rel="shortcut icon" href="favicon.ico">
   </head>
   <body class="homepage is-preload">
@@ -48,8 +50,33 @@
                   </ul>
                 </li> -->
                 <li class="current"><a href="index.html">Home</a></li>
-                <li><a href="bounce-houses.html">Bounce Houses</a></li>
-                <li><a href="about-us.html">About Us</a></li>
+                <li>
+                  <a href="inflatables.html">Inflatables</a>
+                  <ul class="dropdown">
+                    <li>
+                      <a href="classic.html">Classics</a>
+                      <ul class="inner-dropdown">
+                        <li><a href="#">Classics</a></li>
+                        <li><a href="#">Castles</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="slide.html">Slides</a>
+                      <ul class="inner-dropdown">
+                        <li><a href="#">Just Slides</a></li>
+                        <li><a href="#">Attached Slides</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="action.html">Action</a>
+                      <ul class="inner-dropdown">
+                        <li><a href="#">Targets</a></li>
+                        <li><a href="#">Sports</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <!-- <li><a href="about-us.html">About Us</a></li> -->
                 <li><a href="contact-us.html">Contact Us</a></li>
               </ul>
             </nav>
@@ -63,41 +90,15 @@
 
           <!-- Intro -->
             <section id="intro" class="container">
-              <div class="row">
-                <div class="col-4 col-12-medium">
-                  <section class="first">
-                    <i class="icon solid featured fa-cog"></i>
-                    <header>
-                      <h2>Ipsum consequat</h2>
-                    </header>
-                    <p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
-                  </section>
-                </div>
-                <div class="col-4 col-12-medium">
-                  <section class="middle">
-                    <i class="icon solid featured alt fa-bolt"></i>
-                    <header>
-                      <h2>Magna etiam dolor</h2>
-                    </header>
-                    <p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
-                  </section>
-                </div>
-                <div class="col-4 col-12-medium">
-                  <section class="last">
-                    <i class="icon solid featured alt2 fa-star"></i>
-                    <header>
-                      <h2>Tempus adipiscing</h2>
-                    </header>
-                    <p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
-                  </section>
-                </div>
+              <h2 class="carousel-header">Wide Array of Inflatables</h2>
+              <div class="carousel">
+                <img src="images/castle-1-inflatable.jpg" alt="" />
+                <img src="images/castle-2-inflatable.jpg" alt="" />
+                <img src="images/castle-slide-inflatable.jpg" alt="" />
+                <img src="images/axe-throwing-inflatable.jpg" alt="" />
+                <img src="images/basketball-inflatable.jpg" alt="" />
+                <img src="images/dartboard-inflatable.jpg" alt="" />
               </div>
-              <footer>
-                <ul class="actions">
-                  <li><a href="#" class="button large">Get Started</a></li>
-                  <li><a href="#" class="button alt large">Learn More</a></li>
-                </ul>
-              </footer>
             </section>
 
         </section>
@@ -109,16 +110,28 @@
               <div class="col-12">
 
                 <!-- Portfolio -->
-                  <section>
-                    <header class="major">
-                      <h2>My Portfolio</h2>
-                    </header>
+                  <section class="portfolio">
+                    <h2>Our Selection</h2>
                     <div class="row">
                       <div class="col-4 col-6-medium col-12-small">
                         <section class="box">
-                          <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+                          <a href="classic.html" class="image featured"><img src="images/castle-1-inflatable.jpg" alt="" /></a>
                           <header>
-                            <h3>Ipsum feugiat et dolor</h3>
+                            <h3>Classic Inflatables</h3>
+                          </header>
+                          <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+                          <footer>
+                            <ul class="actions">
+                              <li><a href="classic.html" class="button alt">Find out more</a></li>
+                            </ul>
+                          </footer>
+                        </section>
+                      </div>
+                      <div class="col-4 col-6-medium col-12-small">
+                        <section class="box">
+                          <a href="#" class="image featured"><img src="images/castle-slide-inflatable.jpg" alt="" /></a>
+                          <header>
+                            <h3>Slide Inflatables</h3>
                           </header>
                           <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
                           <footer>
@@ -130,65 +143,9 @@
                       </div>
                       <div class="col-4 col-6-medium col-12-small">
                         <section class="box">
-                          <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+                          <a href="#" class="image featured"><img src="images/axe-throwing-inflatable.jpg" alt="" /></a>
                           <header>
-                            <h3>Sed etiam lorem nulla</h3>
-                          </header>
-                          <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-                          <footer>
-                            <ul class="actions">
-                              <li><a href="#" class="button alt">Find out more</a></li>
-                            </ul>
-                          </footer>
-                        </section>
-                      </div>
-                      <div class="col-4 col-6-medium col-12-small">
-                        <section class="box">
-                          <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-                          <header>
-                            <h3>Consequat et tempus</h3>
-                          </header>
-                          <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-                          <footer>
-                            <ul class="actions">
-                              <li><a href="#" class="button alt">Find out more</a></li>
-                            </ul>
-                          </footer>
-                        </section>
-                      </div>
-                      <div class="col-4 col-6-medium col-12-small">
-                        <section class="box">
-                          <a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-                          <header>
-                            <h3>Blandit sed adipiscing</h3>
-                          </header>
-                          <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-                          <footer>
-                            <ul class="actions">
-                              <li><a href="#" class="button alt">Find out more</a></li>
-                            </ul>
-                          </footer>
-                        </section>
-                      </div>
-                      <div class="col-4 col-6-medium col-12-small">
-                        <section class="box">
-                          <a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-                          <header>
-                            <h3>Etiam nisl consequat</h3>
-                          </header>
-                          <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-                          <footer>
-                            <ul class="actions">
-                              <li><a href="#" class="button alt">Find out more</a></li>
-                            </ul>
-                          </footer>
-                        </section>
-                      </div>
-                      <div class="col-4 col-6-medium col-12-small">
-                        <section class="box">
-                          <a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
-                          <header>
-                            <h3>Dolore nisl feugiat</h3>
+                            <h3>Action Inflatables</h3>
                           </header>
                           <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
                           <footer>
@@ -217,17 +174,17 @@
                       <h2>Visit us on social media</h2>
                     </header>
                     <ul class="social">
-                      <li><a class="icon brands fa-facebook-f" href="https://www.facebook.com/Js-House-of-Bounce-LHC-102343162412459/"><span class="label">Facebook</span></a></li>
-                      <li><a class="icon brands fa-instagram" href="https://www.instagram.com/jshouseofbouncelhc/"><span class="label">Instagram</span></a></li>
+                      <li><a class="icon brands fa-facebook-f" href="https://www.facebook.com/Js-House-of-Bounce-LHC-102343162412459/" target="_blank" rel="noreferrer noopener nofollow"><span class="label">Facebook</span></a></li>
+                      <li><a class="icon brands fa-instagram" href="https://www.instagram.com/jshouseofbouncelhc/" target="_blank" rel="noreferrer noopener nofollow"><span class="label">Instagram</span></a></li>
                     </ul>
                   </div>
                   <ul class="contact">
                     <li>
-                      <h3>Mail</h3>
+                      <h3>email</h3>
                       <p><a href="mailto:jshouseofbounce@yahoo.com">jshouseofbounce@yahoo.com</a></p>
                     </li>
                     <li>
-                      <h3>Phone</h3>
+                      <h3>phone</h3>
                       <p><a href="tel:+19284531641">(928)-453-1641</a></p>
                     </li>
                   </ul>
@@ -256,6 +213,8 @@
       <script src="assets/js/breakpoints.min.js"></script>
       <script src="assets/js/util.js"></script>
       <script src="assets/js/main.js"></script>
+      <script src="assets/js/slider.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
 
   </body>
 </html>
