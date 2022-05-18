@@ -1260,14 +1260,10 @@ ul.social {
     #header h1 img {
       width: 200px; }
 
-.about-us #header {
-  padding: 32px 0; }
-
-.bounce-house #header {
-  padding: 32px 0; }
-
+.about-us #header,
+.bounce-house #header,
 .contact-us #header {
-  padding: 32px 0; }
+  padding: 144px 0 32px 0; }
 
 /* Nav */
 #nav {
