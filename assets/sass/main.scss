@@ -907,19 +907,11 @@
     }
   }
 
-.about-us {
-  #header {
-    padding: 32px 0;
-  }
-}
-.bounce-house {
-  #header {
-    padding: 32px 0;
-  }
-}
+.about-us,
+.bounce-house,
 .contact-us {
   #header {
-    padding: 32px 0;
+    padding: 144px 0 32px 0;
   }
 }
 
