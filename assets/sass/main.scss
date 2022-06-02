@@ -1246,6 +1246,14 @@
   .row {
     justify-content: center;
   }
+
+  .image {
+    img {
+      max-height: 280px;
+      object-fit: cover;
+      object-position: center 35%;
+    }
+  }
 }
 
 /* XLarge */

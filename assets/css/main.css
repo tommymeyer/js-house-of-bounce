@@ -1466,6 +1466,10 @@ ul.social {
 /* Inflatables PDP */
 .pdp-section .row {
   justify-content: center; }
+.pdp-section .image img {
+  max-height: 280px;
+  object-fit: cover;
+  object-position: center 35%; }
 
 /* XLarge */
 @media screen and (max-width: 1680px) {
