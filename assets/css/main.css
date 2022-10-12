@@ -929,10 +929,6 @@ footer {
     left: 1.75em;
     top: 1.75em;
     margin: -4.5em 0 4.25em -3.5em; }
-  .box .image img {
-    max-height: 280px;
-    object-fit: cover;
-    object-position: center 35%; }
   .box.post header {
     padding-top: 1em;
     margin: 0 0 2em 0; }
@@ -1031,7 +1027,7 @@ button,
   .image.featured {
     display: block;
     width: 100%;
-    margin: 0 0 2em 0; }
+    margin: 0 0 1em 0; }
   .image.left {
     float: left;
     margin: 0 2em 2em 0; }
@@ -1327,6 +1323,8 @@ ul.social {
     padding: 0.25em 0 0.25em 0; }
     .dropotron li:hover > a, .dropotron li:hover > span {
       border-bottom-color: #c80000; }
+    .dropotron li.current a, .dropotron li.current span {
+      border-bottom-color: #c80000; }
   .dropotron.level-0 {
     margin-top: 2em; }
     .dropotron.level-0::before {
@@ -1416,6 +1414,9 @@ ul.social {
     @media screen and (min-width: 737px) {
       #main .portfolio h2 {
         font-size: 48px; } }
+  #main .portfolio p {
+    color: black;
+    font-weight: 400; }
 
 /* Footer */
 #footer {
@@ -1462,14 +1463,24 @@ ul.social {
     font-weight: normal;
     margin: 0;
     padding: 0.85em 2.25em 0.85em 2.25em; }
+  #copyright .development-credit {
+    font-size: 0.625rem; }
+    #copyright .development-credit a {
+      font-size: inherit; }
 
 /* Inflatables PDP */
 .pdp-section .row {
   justify-content: center; }
-.pdp-section .image img {
-  max-height: 280px;
-  object-fit: cover;
-  object-position: center 35%; }
+.pdp-section section h3 {
+  margin-bottom: 0.75rem; }
+.pdp-section section p {
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 0; }
+  .pdp-section section p + p {
+    margin-top: 0.5rem; }
 
 /* XLarge */
 @media screen and (max-width: 1680px) {
