@@ -1259,7 +1259,18 @@ ul.social {
 .about-us #header,
 .bounce-house #header,
 .contact-us #header {
-  padding: 144px 0 32px 0; }
+  padding: 128px 0 32px 0; }
+
+.contact-us #footer {
+  text-align: center; }
+  .contact-us #footer h2 {
+    font-size: 2rem; }
+  .contact-us #footer .contact h2 {
+    margin-bottom: 0.75rem; }
+  .contact-us #footer .contact a {
+    font-size: 1.5rem; }
+  .contact-us #footer #copyright {
+    margin-top: 5rem; }
 
 /* Nav */
 #nav {
@@ -1826,7 +1837,7 @@ ul.social {
 
   /* Banner */
   #banner {
-    padding: 6em 0;
+    padding: 7em 0 6em 0;
     margin-bottom: 0; }
     #banner header {
       padding: 0 16px;
