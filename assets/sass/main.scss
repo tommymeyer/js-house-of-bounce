@@ -638,15 +638,19 @@
 /* Contact */
 
   ul.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     list-style: none;
+    justify-content: center;
     padding-left: 0;
+
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+    }
 
     li {
       padding: 0;
-
-      & + li {
-        margin-top: 20px;
-      }
 
       h3 {
         font-size: 16px;
