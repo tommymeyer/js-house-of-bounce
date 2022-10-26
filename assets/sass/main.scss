@@ -899,8 +899,9 @@
     text-align: center;
 
     h1 {
+      max-width: 1170px;
+      margin: 80px auto 0 auto;
       color: white;
-      margin-top: 80px;
       padding: 0 32px;
       font-weight: 900;
       font-size: 64px;
@@ -1814,6 +1815,8 @@
         text-align: center;
 
         h1 {
+          max-width: 1170px;
+          margin: 80px auto 0 auto;
           font-size: 32px;
           font-weight: 900;
           letter-spacing: -0.035em;
