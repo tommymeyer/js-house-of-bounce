@@ -158,7 +158,7 @@
             <!-- Copyright -->
               <div id="copyright">
                 <ul class="links">
-                  <li>&copy;2022 J's House of Bounce. All rights reserved.</li><li>Design & Development by <a href="https://tommymeyer.net/">Tommy Meyer</a></li>
+                  <li>&copy;<span id="year"></span> J's House of Bounce. All rights reserved.</li><li>Design & Development by <a href="https://tommymeyer.net/">Tommy Meyer</a></li>
                 </ul>
               </div>
 
@@ -170,6 +170,9 @@
     </div>
 
     <!-- Scripts -->
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/jquery.dropotron.min.js"></script>
       <script src="assets/js/browser.min.js"></script>
