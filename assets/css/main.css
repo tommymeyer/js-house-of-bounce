@@ -1871,6 +1871,10 @@ ul.social {
   .image.featured.product-pages {
     height: 100% }
 
+  br {
+    display: none;
+  }
+
   /* Footer */
   #footer {
     padding: 40px 0 20px 0; } }
